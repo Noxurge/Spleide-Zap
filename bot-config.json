@@ -1,0 +1,6 @@
+{
+    "ping": "ping",
+    "show": "/show",
+    "listar": "/ls",
+    "teste": "/teste"
+}
