@@ -9,5 +9,5 @@ Este bot é fornecido apenas para fins educacionais. Não me responsabilizo pelo
 
 Ao utilizar este bot, você concorda em utilizá-lo de forma ética e legal, respeitando os direitos e privacidade de terceiros. O uso deste bot para atividades ilegais ou antiéticas resultará em consequências legais.
 
-Este bot pode ser atualizado ou desativado a qualquer momento, sem aviso prévio.
+"Este bot pode ser atualizado ou desativado a qualquer momento, sem aviso prévio.
 ---
