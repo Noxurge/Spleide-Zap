@@ -12,3 +12,9 @@ Ao utilizar este bot, você concorda em utilizá-lo de forma ética e legal, res
 Este bot pode ser atualizado ou desativado a qualquer momento, sem aviso prévio.
 
 ---
+# Instalação das dependências e uso
+---
+
+`npm install`
+
+---
