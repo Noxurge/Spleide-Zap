@@ -20,7 +20,7 @@ function printSuccess(message) {
 function printCall(sender_contact, call) {
     let name = String(sender_contact.pushname);
     if (name === 'undefined') {
-        name = "SEU_NOME_AQUI"
+        name = "SEU_NOME_AQUI" // Customize seu nome para retornar no console
     }
     console.log(colors.blue(`[+] ${name} used ${call}`));
 }
@@ -39,7 +39,7 @@ printInfo('Initializing the bot...');
 const client = new Client({
     authStrategy: new LocalAuth(),
     puppeteer: {
-        executablePath: 'C:/Program Files/BraveSoftware/Brave-Browser/Application/brave.exe'
+        executablePath: 'PATH_BROWSER' //Adicione um caminho de um browser para gerar um client
     }
 });
 
@@ -70,7 +70,7 @@ client.on('message_revoke_everyone', async (after, message) => {
         const chat_a = await message.getChat();
         let name = String(sender_a.pushname);
         if (message.fromMe) {
-           name = "SEU_NOME";
+           name = "SEU_NOME"; // Customize seu nome para aparecer no console e no seu WhatsApp
         };
         const t = `Mensagem apagada\nEnviada por: ${name}\nEm: ${chat_a.name}\nConteudo: ${message.body}`;
         printInfo(`Mensagem apagada por ${name}, enviando para o pv...`);
