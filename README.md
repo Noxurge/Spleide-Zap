@@ -20,7 +20,7 @@ Execute o bot e leia o QR Code:
   `node bot.js`
 
 ---
-##Funções:
+## Funções:
 
 `message_edit`: É uma função que é ativada quando alguém edita alguma mensagem. Sem utilidade por enquanto.
 `message_revoke_everyone`: Função que é acionada quando alguém apaga uma mensagem, redirecionando assim a mensagem apagada para seu chat privado. Contém o nome de quem enviou, o nome do contato/grupo salvo e o conteúdo da mensagem.
