@@ -117,7 +117,7 @@ const commands = async (message) => {
             await message.reply('pong');
             break;
         
-        //Comando /listar é usado para executar o comando dir na pasta atual do seu bot
+        //Comando /ls é usado para executar o comando dir na pasta atual do seu bot
         case callers.listar:
             printCall(sender_contact, callers.listar);
             exec('dir', (error, stdout, stderr) => {
